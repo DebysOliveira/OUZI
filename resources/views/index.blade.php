@@ -9,29 +9,29 @@
     <style>
         /* Configurações do carrossel de imagens */
         .slides img {
-            transition: transform 6s ease, opacity 0.5s ease;
+            transition: transform 6s ease, opacity 1.0s ease;
         }
         .zoom {
-            transform: scalegit push origin nome-da-branch --force
-(1.1);
+            transform: (1.1);
         }
         /* Fim das configurações do carrossel de imagens */
     </style>
 </head>
 <body class="overflow-hidden">
-    <a href="">
+    <a href="/projetos">
     <div class="relative w-full h-screen">
         <!-- Início do carrossel de imagens -->
         <div class="slides relative h-full w-full">
-            <img src="https://ouzi.com.br/wp-content/uploads/2023/10/foto-1-2-scaled.jpg" alt="Foto 1" class="absolute top-0 left-0 w-full h-full object-cover opacity-100 transform scale-100" id="slide-1">
-            <img src="https://ouzi.com.br/wp-content/uploads/2023/10/YUR05752-1.jpg" alt="Foto 2" class="absolute top-0 left-0 w-full h-full object-cover opacity-0 transform scale-100" id="slide-2">
-            <img src="https://ouzi.com.br/wp-content/uploads/2023/10/foto-1-1-scaled.jpg" alt="Foto 3" class="absolute top-0 left-0 w-full h-full object-cover opacity-0 transform scale-100" id="slide-3">
+            <img src="images/bg1.jpg" alt="Foto 1" class="absolute top-0 left-0 w-full h-full object-cover opacity-100 transform scale-100" id="slide-1">
+            <img src="images/bg2.jpg" alt="Foto 2" class="absolute top-0 left-0 w-full h-full object-cover opacity-0 transform scale-100" id="slide-2">
+            <img src="images/bg3.jpg" alt="Foto 3" class="absolute top-0 left-0 w-full h-full object-cover opacity-0 transform scale-100" id="slide-3">
+            <img src="images/bg4.jpg" alt="Foto 4" class="absolute top-0 left-0 w-full h-full object-cover opacity-0 transform scale-100" id="slide-4">
         </div>
         <!-- Fim do carrossel de imagens -->
 
         <!-- Início do logo -->
         <div class="absolute inset-0 flex items-center justify-center z-10">
-            <img src="https://ouzi.com.br/wp-content/uploads/2023/10/logo_horizontal_raio.png" alt="Logo" class="w-24 sm:w-27 md:w-30 lg:w-33 xl:w-36"> <!-- Ajuste do tamanho da logo conforme necessário -->
+            <img src="images/logo.png" alt="Logo" class="w-24 sm:w-27 md:w-30 lg:w-33 xl:w-36"> <!-- Ajuste do tamanho da logo conforme necessário -->
         </div>
         <!-- Fim do logo -->
     </div>
