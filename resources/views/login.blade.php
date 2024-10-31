@@ -124,8 +124,8 @@
 <body class="barlow-condensed-regular text-sm tracking-widest antialiased min-h-screen">
     
 
-    <div class="flex items-center justify-center pt-32 pb-28">
-    <div class="bg-gray-100 p-8 rounded-lg w-80">
+    <div class="flex items-center justify-center pt- sm: lg:pt-20 xl:pt-96 pb-auto w-full">
+    <div class="bg-gray-200 p-8 rounded-lg w-80 h-auto">
         <div class="flex justify-center mb-4">
             <a href="/"><img src="images/logo.png" alt="Logotipo da empresa Ouzi By Karine" class="h-16"></a>
           </div>

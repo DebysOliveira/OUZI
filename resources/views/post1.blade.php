@@ -126,7 +126,7 @@
 
 
   <main class="container mx-auto max-w-6xl flex-grow uppercase">
-   <section class="text-center mb-8">
+   <section class="text-center mb-10">
     <h2 class="text-sm text-gray-500 uppercase">
      Minutos Ouzi
     </h2>
@@ -161,7 +161,7 @@
         </div>
     </div>
 
-   <section class="text-justify leading-relaxed">
+   <section class="text-justify leading-relaxed mt-8">
     <p class="mb-4">
      Ressignificar é o processo de dar um novo significado a algo, seja uma experiência, uma relação ou até mesmo um objeto. Quando ressignificamos, não estamos apenas mudando a forma como vemos algo; estamos transformando nossa percepção e, consequentemente, a nossa relação com isso. Esse conceito é particularmente poderoso em momentos de adversidade, onde a capacidade de ressignificar pode nos ajudar a superar desafios e encontrar crescimento pessoal.
     </p>

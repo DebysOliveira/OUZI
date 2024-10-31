@@ -127,7 +127,7 @@
     <x-navbar/>
 
     <main class="container mx-auto max-w-6xl flex-grow text-sm px-4">
-    <div class="flex flex-col lg:flex-row lg:space-x-6">
+    <div class="flex flex-collg:flex-row lg:space-x-6">
         
         <!-- Seção de Texto -->
         <div class="leading-loose w-full lg:w-1/2 space-y-6 text-justify mb-6 lg:mb-0">

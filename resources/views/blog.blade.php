@@ -125,7 +125,7 @@
 
     <x-navbar/>
 
-    <main class="container mx-auto max-w-6xl flex-grow">
+    <main class="container mx-auto flex-grow w-full">
 
 <div class="container mx-auto">
 
