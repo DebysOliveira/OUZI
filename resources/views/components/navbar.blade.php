@@ -1,6 +1,3 @@
-
-
-<body class="barlow-condensed-regular antialiased min-h-screen flex flex-col text-sm tracking-widest">
     <header class="bg-gray-100 py-6">
         <div class="container mx-auto flex justify-center">
             <a href="/"><img src="images/logo.png" alt="Logotipo da empresa Ouzi By Karine" class="h-16"></a>

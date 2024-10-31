@@ -131,101 +131,17 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto">
 
-        <div class="text-left">
-            <img alt="Living room with modern furniture and large windows" class="w-full object-cover sm:h-40 md:h-44 lg:h-48 xl:h-60" src="https://storage.googleapis.com/a1aa/image/1xelwUF7tbUCTC8T1spfScw3ekq57La2foad0qkHBb5RvXtOB.jpg" />
-            <div class="flex justify-between items-center mt-4">
-                <p class="barlow-condensed-extralight">MINUTOS OUZI</p>
-            </div>
-            <div class="flex justify-between items-center mt-2">
-                <p class="barlow-condensed-semibold">ÁREA GOURMET K|M - PARTE 2</p>
-            </div>
-            <div class="mb- flex items-center text-gray-600 text-sm mt-2">
-                <img alt="Author's profile picture" class="w-auto h-6 sm:h-4 md:h-5 lg:h-6 xl:h-7 rounded-full mr-2" src="https://storage.googleapis.com/a1aa/image/e63mSE9VT42Eda7FONkRI8n517tgJ5c9VWyl0ixPSxCB7dyJA.jpg" />
-                <p class="barlow-condensed-extralight">Mario Sanchez</p>
-                <p class="barlow-condensed-extralight mx-2">•</p>
-                <p class="barlow-condensed-extralight">01/12/24</p>
-            </div>
-        </div>
+        <x-cardpost/>
 
-        <div class="text-left">
-            <img alt="Living room with modern furniture and large windows" class="w-full object-cover sm:h-40 md:h-44 lg:h-48 xl:h-60" src="https://storage.googleapis.com/a1aa/image/1xelwUF7tbUCTC8T1spfScw3ekq57La2foad0qkHBb5RvXtOB.jpg" />
-            <div class="flex justify-between items-center mt-4">
-                <p class="barlow-condensed-extralight">MINUTOS OUZI</p>
-            </div>
-            <div class="flex justify-between items-center mt-2">
-                <p class="barlow-condensed-semibold">ÁREA GOURMET K|M - PARTE 2</p>
-            </div>
-            <div class="mb- flex items-center text-gray-600 text-sm mt-2">
-                <img alt="Author's profile picture" class="w-auto h-6 sm:h-4 md:h-5 lg:h-6 xl:h-7 rounded-full mr-2" src="https://storage.googleapis.com/a1aa/image/e63mSE9VT42Eda7FONkRI8n517tgJ5c9VWyl0ixPSxCB7dyJA.jpg" />
-                <p class="barlow-condensed-extralight">Mario Sanchez</p>
-                <p class="barlow-condensed-extralight mx-2">•</p>
-                <p class="barlow-condensed-extralight">01/12/24</p>
-            </div>
-        </div>
+        <x-cardpost/>
 
-        <div class="text-left">
-            <img alt="Living room with modern furniture and large windows" class="w-full object-cover sm:h-40 md:h-44 lg:h-48 xl:h-60" src="https://storage.googleapis.com/a1aa/image/1xelwUF7tbUCTC8T1spfScw3ekq57La2foad0qkHBb5RvXtOB.jpg" />
-            <div class="flex justify-between items-center mt-4">
-                <p class="barlow-condensed-extralight">MINUTOS OUZI</p>
-            </div>
-            <div class="flex justify-between items-center mt-2">
-                <p class="barlow-condensed-semibold">ÁREA GOURMET K|M - PARTE 2</p>
-            </div>
-            <div class="mb- flex items-center text-gray-600 text-sm mt-2">
-                <img alt="Author's profile picture" class="w-auto h-6 sm:h-4 md:h-5 lg:h-6 xl:h-7 rounded-full mr-2" src="https://storage.googleapis.com/a1aa/image/e63mSE9VT42Eda7FONkRI8n517tgJ5c9VWyl0ixPSxCB7dyJA.jpg" />
-                <p class="barlow-condensed-extralight">Mario Sanchez</p>
-                <p class="barlow-condensed-extralight mx-2">•</p>
-                <p class="barlow-condensed-extralight">01/12/24</p>
-            </div>
-        </div>
+        <x-cardpost/>
 
-        <div class="text-left">
-            <img alt="Living room with modern furniture and large windows" class="w-full object-cover sm:h-40 md:h-44 lg:h-48 xl:h-60" src="https://storage.googleapis.com/a1aa/image/1xelwUF7tbUCTC8T1spfScw3ekq57La2foad0qkHBb5RvXtOB.jpg" />
-            <div class="flex justify-between items-center mt-4">
-                <p class="barlow-condensed-extralight">MINUTOS OUZI</p>
-            </div>
-            <div class="flex justify-between items-center mt-2">
-                <p class="barlow-condensed-semibold">ÁREA GOURMET K|M - PARTE 2</p>
-            </div>
-            <div class="mb- flex items-center text-gray-600 text-sm mt-2">
-                <img alt="Author's profile picture" class="w-auto h-6 sm:h-4 md:h-5 lg:h-6 xl:h-7 rounded-full mr-2" src="https://storage.googleapis.com/a1aa/image/e63mSE9VT42Eda7FONkRI8n517tgJ5c9VWyl0ixPSxCB7dyJA.jpg" />
-                <p class="barlow-condensed-extralight">Mario Sanchez</p>
-                <p class="barlow-condensed-extralight mx-2">•</p>
-                <p class="barlow-condensed-extralight">01/12/24</p>
-            </div>
-        </div>
+        <x-cardpost/>
 
-        <div class="text-left">
-            <img alt="Living room with modern furniture and large windows" class="w-full object-cover sm:h-40 md:h-44 lg:h-48 xl:h-60" src="https://storage.googleapis.com/a1aa/image/1xelwUF7tbUCTC8T1spfScw3ekq57La2foad0qkHBb5RvXtOB.jpg" />
-            <div class="flex justify-between items-center mt-4">
-                <p class="barlow-condensed-extralight">MINUTOS OUZI</p>
-            </div>
-            <div class="flex justify-between items-center mt-2">
-                <p class="barlow-condensed-semibold">ÁREA GOURMET K|M - PARTE 2</p>
-            </div>
-            <div class="mb- flex items-center text-gray-600 text-sm mt-2">
-                <img alt="Author's profile picture" class="w-auto h-6 sm:h-4 md:h-5 lg:h-6 xl:h-7 rounded-full mr-2" src="https://storage.googleapis.com/a1aa/image/e63mSE9VT42Eda7FONkRI8n517tgJ5c9VWyl0ixPSxCB7dyJA.jpg" />
-                <p class="barlow-condensed-extralight">Mario Sanchez</p>
-                <p class="barlow-condensed-extralight mx-2">•</p>
-                <p class="barlow-condensed-extralight">01/12/24</p>
-            </div>
-        </div>
+        <x-cardpost/>
 
-        <div class="text-left">
-            <img alt="Living room with modern furniture and large windows" class="w-full object-cover sm:h-40 md:h-44 lg:h-48 xl:h-60" src="https://storage.googleapis.com/a1aa/image/1xelwUF7tbUCTC8T1spfScw3ekq57La2foad0qkHBb5RvXtOB.jpg" />
-            <div class="flex justify-between items-center mt-4">
-                <p class="barlow-condensed-extralight">MINUTOS OUZI</p>
-            </div>
-            <div class="flex justify-between items-center mt-2">
-                <p class="barlow-condensed-semibold">ÁREA GOURMET K|M - PARTE 2</p>
-            </div>
-            <div class="mb- flex items-center text-gray-600 text-sm mt-2">
-                <img alt="Author's profile picture" class="w-auto h-6 sm:h-4 md:h-5 lg:h-6 xl:h-7 rounded-full mr-2" src="https://storage.googleapis.com/a1aa/image/e63mSE9VT42Eda7FONkRI8n517tgJ5c9VWyl0ixPSxCB7dyJA.jpg" />
-                <p class="barlow-condensed-extralight">Mario Sanchez</p>
-                <p class="barlow-condensed-extralight mx-2">•</p>
-                <p class="barlow-condensed-extralight">01/12/24</p>
-            </div>
-        </div>
+        <x-cardpost/>
 
     </div>
 

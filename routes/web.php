@@ -34,10 +34,10 @@ Route::get('/projeto', function () {
     return view('projeto1');
 });
 
-Route::get('/teste', function () {
-    return view('teste');
-});
-
 Route::get('/login', function () {
     return view('login');
+});
+
+Route::get('/post', function () {
+    return view('post1');
 });

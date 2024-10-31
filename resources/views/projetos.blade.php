@@ -127,35 +127,19 @@
     <main class="container mx-auto max-w-6xl flex-grow">
     <div class="container mx-auto">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="text-center">
-                <img alt="Living room with modern furniture and large windows" class="w-full object-cover sm:h-40 md:h-44 lg:h-48 xl:h-60" src="https://storage.googleapis.com/a1aa/image/1xelwUF7tbUCTC8T1spfScw3ekq57La2foad0qkHBb5RvXtOB.jpg" />
-                <p class="mt-4">CASA BMM</p>
-            </div>
 
-            <div class="text-center">
-                <img alt="Living room with modern furniture and large windows" class="w-full object-cover sm:h-40 md:h-44 lg:h-48 xl:h-60" src="https://storage.googleapis.com/a1aa/image/1xelwUF7tbUCTC8T1spfScw3ekq57La2foad0qkHBb5RvXtOB.jpg" />
-                <p class="mt-4">CASA BMM</p>
-            </div>
+          <x-cardproj/>
 
-            <div class="text-center">
-                <img alt="Living room with modern furniture and large windows" class="w-full object-cover sm:h-40 md:h-44 lg:h-48 xl:h-60" src="https://storage.googleapis.com/a1aa/image/1xelwUF7tbUCTC8T1spfScw3ekq57La2foad0qkHBb5RvXtOB.jpg" />
-                <p class="mt-4">CASA BMM</p>
-            </div>
+          <x-cardproj/>
 
-            <div class="text-center">
-                <img alt="Living room with modern furniture and large windows" class="w-full object-cover sm:h-40 md:h-44 lg:h-48 xl:h-60" src="https://storage.googleapis.com/a1aa/image/1xelwUF7tbUCTC8T1spfScw3ekq57La2foad0qkHBb5RvXtOB.jpg" />
-                <p class="mt-4">CASA BMM</p>
-            </div>
+          <x-cardproj/>
 
-            <div class="text-center">
-                <img alt="Living room with modern furniture and large windows" class="w-full object-cover sm:h-40 md:h-44 lg:h-48 xl:h-60" src="https://storage.googleapis.com/a1aa/image/1xelwUF7tbUCTC8T1spfScw3ekq57La2foad0qkHBb5RvXtOB.jpg" />
-                <p class="mt-4">CASA BMM</p>
-            </div>
+          <x-cardproj/>
 
-            <div class="text-center">
-                <img alt="Living room with modern furniture and large windows" class="w-full object-cover sm:h-40 md:h-44 lg:h-48 xl:h-60" src="https://storage.googleapis.com/a1aa/image/1xelwUF7tbUCTC8T1spfScw3ekq57La2foad0qkHBb5RvXtOB.jpg" />
-                <p class="mt-4">CASA BMM</p>
-            </div>
+          <x-cardproj/>
+
+          <x-cardproj/>
+
         </div>
     </div>
 </main>

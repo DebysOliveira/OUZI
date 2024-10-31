@@ -126,21 +126,26 @@
 
     <x-navbar/>
 
-    <main class="container mx-auto max-w-6xl flex-grow text-sm">
-    <div class="flex items-center">
-        <div class="leading-loose w-1/2 space-y-6 text-left"> <!-- Adiciona text-center -->
-        <p class="barlow-condensed-bold text-4xl">
-            QUEM É A OUZI?
-        </p>
+    <main class="container mx-auto max-w-6xl flex-grow text-sm px-4">
+    <div class="flex flex-col lg:flex-row lg:space-x-6">
+        
+        <!-- Seção de Texto -->
+        <div class="leading-loose w-full lg:w-1/2 space-y-6 text-justify mb-6 lg:mb-0">
+            <p class="barlow-condensed-bold text-3xl lg:text-4xl text-center lg:text-left">
+                QUEM É A OUZI?
+            </p>
             <p>FUNDADA EM 2016 POR <b>KARINE FERREIRA</b>, <b>A OUZI ARQUITETURA</b> SE ESTABELECEU EM MOSSORÓ/RN, OFERECENDO DESIGN E SOLUÇÕES CRIATIVAS QUE EQUILIBRAM ELEGÂNCIA E FUNCIONALIDADE.</p>
             <p>A OUZI SE DEDICA A CRIAR PROJETOS QUE ATENDEM ÀS NECESSIDADES E AO ESTILO DE SEUS CLIENTES COM SENSIBILIDADE E PRECISÃO.</p>
             <p>EM 2017, A OUZI EXPANDIU OS SEUS HORIZONTES AO INCORPORAR A CURADORIA DE DECORAÇÃO, PROPORCIONANDO SOLUÇÕES PERSONALIZADAS QUE COMBINAM A RIQUEZA LOCAL COM UMA VISÃO COSMOPOLITA, CONTEMPORÂNEA E SOFISTICADA.</p>
         </div>
-        <div class="w-1/2 pl-6">
-            <img alt="Foto de Karine Ferreira" loading="lazy" class="w-full h-auto" src="images/YUR05838.webp"/>
+        
+        <!-- Seção de Imagem -->
+        <div class="w-full lg:w-1/2">
+            <img alt="Foto de Karine Ferreira" loading="lazy" class="w-full h-auto" src="images/YUR05838.jpg"/>
         </div>
     </div>
 </main>
+
 
 
     <x-footer/>
