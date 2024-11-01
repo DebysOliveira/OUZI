@@ -2,7 +2,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="Blog sobre arquitetura e design por Ouzi By Karine. Exploramos a criação de espaços únicos e funcionais." />
-    <title>Sobre - Ouzi By Karine</title>
+    <title>DREAM BIG MAKE IT HAPPEN - Ouzi By Karine</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -125,23 +125,21 @@
 
     <x-navbar/>
 
-    <div class="container mx-auto max-w-6xl flex-grow leading-loose text-justify">
+    <div class="container mx-auto w-full flex-grow leading-loose text-justify">
 
-
-
-
-
-        <div class="flex">
-            <div class="w-1/2 pr-8 uppercase">
+        <div class="flex flex-col lg:flex-row">
+            <div class="w-full lg:w-1/2 mb-6 lg:mb-0 lg:pr-8 flex flex-col">
+                <img src="https://placehold.co/400x300" alt="Holographic acrylic art piece with the text 'Dream Big Make It Happen' displayed in a modern interior setting" class="w-full h-auto mb-4 lg:mb-0 lg:hidden">
+                
                 <p class="tracking-widest">
                     SÉRIE:
                 </p>
-                <div class="flex">
-                    <p class="w-1/2 mt-2 barlow-condensed-medium text-2xl">
+                <div class="flex flex-col lg:flex-row">
+                    <p class="w-full lg:w-1/2 mt-2 barlow-condensed-medium text-2xl">
                         DREAM BIG
                         <br> MAKE IT HAPPEN
                     </p>
-                    <p class="w-1/2 mt-2 text-right">
+                    <p class="w-full lg:w-1/2 mt-2 text-right">
                         (PD01-2024)
                     </p>
                 </div>
@@ -156,7 +154,7 @@
                     ARTE EM ACRÍLICO HOLOGRÁFICO.
                 </p>
                 <hr class="mt-4 w-10 h-px bg-gray-800 border-0 rounded-md">
-                <div class="flex justify-between mt-4">
+                <div class="flex flex-col lg:flex-row justify-between mt-4">
                     <div>
                         <p class="tracking-widest font-bold">
                             TAMANHO (AXLXP):
@@ -175,34 +173,30 @@
                     </div>
                 </div>
 
-                <div class="flex justify-between items-center mt-4">
-    <p>
-        DISPONÍVEL
-    </p>
-    <div>
-        <a href="https://wa.me/SEU_NUMERO_DE_TELEFONE" target="_blank" class="inline-block px-3 py-1 bg-black text-white font-semibold rounded-md hover:bg-gray-900">
-            Comprar pelo WhatsApp
-        </a>
-    </div>
-</div>
-
-
+                <div class="flex flex-col lg:flex-row justify-between items-center mt-4">
+                    <p>
+                        DISPONÍVEL
+                    </p>
+                    <div>
+                        <a href="https://wa.me/SEU_NUMERO_DE_TELEFONE" target="_blank" class="inline-block px-3 py-1 bg-black text-white font-semibold rounded-md hover:bg-gray-900 mt-2 lg:mt-0">
+                            Comprar pelo WhatsApp
+                        </a>
+                    </div>
+                </div>
             </div>
 
-            <div class="w-1/2">
+            <div class="w-full lg:w-1/2 hidden lg:flex items-center justify-center">
                 <img src="https://placehold.co/400x300" alt="Holographic acrylic art piece with the text 'Dream Big Make It Happen' displayed in a modern interior setting" class="w-full h-auto">
             </div>
         </div>
     </div>
 
-
-
-
-
-
-
     <x-footer/>
 
 </body>
+
+
+
+
 
 </html>

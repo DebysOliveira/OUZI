@@ -2,7 +2,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="Blog sobre arquitetura e design por Ouzi By Karine. Exploramos a criação de espaços únicos e funcionais." />
-    <title>Sobre - Ouzi By Karine</title>
+    <title>Produtos - Ouzi By Karine</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -128,29 +128,19 @@
     <x-navbar/>
 
     <main class="container mx-auto flex-grow w-full">
-
-        <div class="container mx-auto">
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-
-              <x-cardprod/>
-
-              <x-cardprod/>
-
-              <x-cardprod/>
-
-              <x-cardprod/>
-
-              <x-cardprod/>
-
-              <x-cardprod/>
-
-            </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4">
+            <x-cardprod/>
+            <x-cardprod/>
+            <x-cardprod/>
+            <x-cardprod/>
+            <x-cardprod/>
+            <x-cardprod/>
         </div>
     </main>
 
-
     <x-footer/>
 </body>
+
 
 
 </html>

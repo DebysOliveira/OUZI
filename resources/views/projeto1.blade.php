@@ -124,20 +124,26 @@
 <body class="barlow-condensed-regular text-sm tracking-widest antialiased min-h-screen flex flex-col">
     <x-navbar/>
 
-
-    <main class="container mx-auto max-w-6xl flex-grow">
+    <main class="container mx-auto w-full flex-grow">
         <div class="container mx-auto">
-
-
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div>
-                    <img class="object-cover object-center w-full h-40 max-w-full cursor-pointer" src="images/bg1.jpg" alt="gallery-photo" onclick="openModal(0)" />
+                    <img class="object-cover object-center w-full h-32 sm:h-40 md:h-44 lg:h-48 xl:h-60 cursor-pointer" src="images/bg1.jpg" alt="gallery-photo" onclick="openModal(0)" />
                 </div>
                 <div>
-                    <img class="object-cover object-center w-full h-40 max-w-full cursor-pointer" src="images/bg2.jpg" alt="gallery-photo" onclick="openModal(1)" />
+                    <img class="object-cover object-center w-full h-32 sm:h-40 md:h-44 lg:h-48 xl:h-60 cursor-pointer" src="images/bg2.jpg" alt="gallery-photo" onclick="openModal(1)" />
                 </div>
                 <div>
-                    <img class="object-cover object-center w-full h-40 max-w-full cursor-pointer" src="images/bg3.jpg" alt="gallery-photo" onclick="openModal(2)" />
+                    <img class="object-cover object-center w-full h-32 sm:h-40 md:h-44 lg:h-48 xl:h-60 cursor-pointer" src="images/bg3.jpg" alt="gallery-photo" onclick="openModal(2)" />
+                </div>
+                <div>
+                    <img class="object-cover object-center w-full h-32 sm:h-40 md:h-44 lg:h-48 xl:h-60 cursor-pointer" src="images/bg1.jpg" alt="gallery-photo" onclick="openModal(0)" />
+                </div>
+                <div>
+                    <img class="object-cover object-center w-full h-32 sm:h-40 md:h-44 lg:h-48 xl:h-60 cursor-pointer" src="images/bg2.jpg" alt="gallery-photo" onclick="openModal(1)" />
+                </div>
+                <div>
+                    <img class="object-cover object-center w-full h-32 sm:h-40 md:h-44 lg:h-48 xl:h-60 cursor-pointer" src="images/bg3.jpg" alt="gallery-photo" onclick="openModal(2)" />
                 </div>
             </div>
 
@@ -148,17 +154,15 @@
                     <button class="absolute top-2 right-2 text-white text-3xl font-bold" onclick="closeModal()">×</button>
 
                     <!-- Imagem do Carrossel -->
-                    <img id="modalImage" class="w-full max-h-[80vh] object-contain rounded-lg">
+                    <img id="modalImage" class="w-full max-h-[80vh] object-contain">
 
                     <!-- Botões de Navegação -->
                     <button class="absolute top-1/2 left-2 transform -translate-y-1/2 text-white text-3xl" onclick="changeSlide(-1)">&#10094;</button>
                     <button class="absolute top-1/2 right-2 transform -translate-y-1/2 text-white text-3xl" onclick="changeSlide(1)">&#10095;</button>
                 </div>
             </div>
-
         </div>
     </main>
-
 
     <x-footer/>
 
@@ -169,22 +173,23 @@
             "images/bg3.jpg"
         ];
         let currentIndex = 0;
-    
+
         function openModal(index) {
             currentIndex = index;
             document.getElementById("carouselModal").classList.remove("hidden");
             document.getElementById("modalImage").src = images[currentIndex];
         }
-    
+
         function closeModal() {
             document.getElementById("carouselModal").classList.add("hidden");
         }
-    
+
         function changeSlide(direction) {
             currentIndex = (currentIndex + direction + images.length) % images.length;
             document.getElementById("modalImage").src = images[currentIndex];
         }
     </script>
 </body>
+
 
 </html>

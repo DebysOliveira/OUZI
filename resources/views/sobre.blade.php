@@ -126,29 +126,78 @@
 
     <x-navbar/>
 
-    <main class="container mx-auto max-w-6xl flex-grow text-sm px-4">
-    <div class="flex flex-collg:flex-row lg:space-x-6">
-        
-        <!-- Seção de Texto -->
-        <div class="leading-loose w-full lg:w-1/2 space-y-6 text-justify mb-6 lg:mb-0">
-            <p class="barlow-condensed-bold text-3xl lg:text-4xl text-center lg:text-left">
-                QUEM É A OUZI?
-            </p>
-            <p>FUNDADA EM 2016 POR <b>KARINE FERREIRA</b>, <b>A OUZI ARQUITETURA</b> SE ESTABELECEU EM MOSSORÓ/RN, OFERECENDO DESIGN E SOLUÇÕES CRIATIVAS QUE EQUILIBRAM ELEGÂNCIA E FUNCIONALIDADE.</p>
-            <p>A OUZI SE DEDICA A CRIAR PROJETOS QUE ATENDEM ÀS NECESSIDADES E AO ESTILO DE SEUS CLIENTES COM SENSIBILIDADE E PRECISÃO.</p>
-            <p>EM 2017, A OUZI EXPANDIU OS SEUS HORIZONTES AO INCORPORAR A CURADORIA DE DECORAÇÃO, PROPORCIONANDO SOLUÇÕES PERSONALIZADAS QUE COMBINAM A RIQUEZA LOCAL COM UMA VISÃO COSMOPOLITA, CONTEMPORÂNEA E SOFISTICADA.</p>
-        </div>
-        
-        <!-- Seção de Imagem -->
-        <div class="w-full lg:w-1/2">
-            <img alt="Foto de Karine Ferreira" loading="lazy" class="w-full h-auto" src="images/YUR05838.jpg"/>
-        </div>
-    </div>
-</main>
+    <main class="container mx-auto w-full flex-grow text-sm px-4">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
+            <!-- Seção de Texto -->
+            <div class="leading-loose mb-6 lg:mb-0 flex flex-col">
+                <img src="https://placehold.co/400x300" alt="Holographic acrylic art piece with the text 'Dream Big Make It Happen' displayed in a modern interior setting" class="w-full h-auto mb-4 lg:hidden">
 
+                <p class="tracking-widest">
+                    SÉRIE:
+                </p>
+                <div class="flex flex-col lg:flex-row">
+                    <p class="w-full lg:w-1/2 mt-2 barlow-condensed-medium text-2xl">
+                        DREAM BIG
+                        <br> MAKE IT HAPPEN
+                    </p>
+                    <p class="w-full lg:w-1/2 mt-2 text-right">
+                        (PD01-2024)
+                    </p>
+                </div>
+                <p class="mt-4">
+                    EM TOM HOLOGRÁFICO, REFLETE A DETERMINAÇÃO E A INOVAÇÃO.
+                </p>
+                <p class="mt-4">
+                    SUAS CORES DANÇANTES, QUE MUDAM COM A LUZ, SÃO UM CONVITE CONSTANTE PARA SONHAR ALTO E TRANSFORMAR ESSES SONHOS EM CONQUISTAS.
+                </p>
+                <hr class="mt-4 w-10 h-px bg-gray-800 border-0 rounded-md">
+                <p class="mt-4">
+                    ARTE EM ACRÍLICO HOLOGRÁFICO.
+                </p>
+                <hr class="mt-4 w-10 h-px bg-gray-800 border-0 rounded-md">
+                <div class="flex flex-col lg:flex-row justify-between mt-4">
+                    <div>
+                        <p class="tracking-widest font-bold">
+                            TAMANHO (AXLXP):
+                        </p>
+                        <p class="mt-2">
+                            30,5 X 30,5 X 4,5CM
+                        </p>
+                    </div>
+                    <div>
+                        <p class="tracking-widest font-bold">
+                            VALOR:
+                        </p>
+                        <p class="mt-2">
+                            R$ 697
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col lg:flex-row justify-between items-center mt-4">
+                    <p>
+                        DISPONÍVEL
+                    </p>
+                    <div>
+                        <a href="https://wa.me/SEU_NUMERO_DE_TELEFONE" target="_blank" class="inline-block px-3 py-1 bg-black text-white font-semibold rounded-md hover:bg-gray-900 mt-2 lg:mt-0">
+                            Comprar pelo WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seção de Imagem -->
+            <div class="w-full hidden lg:flex items-center justify-center">
+                <img src="https://placehold.co/400x300" alt="Holographic acrylic art piece with the text 'Dream Big Make It Happen' displayed in a modern interior setting" class="w-full h-auto">
+            </div>
+        </div>
+    </main>
 
     <x-footer/>
 
 </body>
+
+
+
 </html>
