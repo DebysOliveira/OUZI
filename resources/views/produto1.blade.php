@@ -125,12 +125,13 @@
 
     <x-navbar/>
 
-    <div class="container mx-auto w-full flex-grow leading-loose text-justify">
+    <main class="container mx-auto w-full flex-grow text-sm px-4">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
-        <div class="flex flex-col lg:flex-row">
-            <div class="w-full lg:w-1/2 mb-6 lg:mb-0 lg:pr-8 flex flex-col">
-                <img src="https://placehold.co/400x300" alt="Holographic acrylic art piece with the text 'Dream Big Make It Happen' displayed in a modern interior setting" class="w-full h-auto mb-4 lg:mb-0 lg:hidden">
-                
+            <!-- Seção de Texto -->
+            <div class="leading-loose mb-6 lg:mb-0 flex flex-col">
+                <img src="https://placehold.co/400x300" alt="Holographic acrylic art piece with the text 'Dream Big Make It Happen' displayed in a modern interior setting" class="w-full h-auto mb-4 lg:hidden">
+
                 <p class="tracking-widest">
                     SÉRIE:
                 </p>
@@ -185,11 +186,12 @@
                 </div>
             </div>
 
-            <div class="w-full lg:w-1/2 hidden lg:flex items-center justify-center">
+            <!-- Seção de Imagem -->
+            <div class="w-full hidden lg:flex items-center justify-center">
                 <img src="https://placehold.co/400x300" alt="Holographic acrylic art piece with the text 'Dream Big Make It Happen' displayed in a modern interior setting" class="w-full h-auto">
             </div>
         </div>
-    </div>
+    </main>
 
     <x-footer/>
 
