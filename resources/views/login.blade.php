@@ -11,117 +11,83 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <style>
-        .barlow-condensed-thin {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 100;
-      font-style: normal;
-    }
-    
-    .barlow-condensed-extralight {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 200;
-      font-style: normal;
-    }
-    
-    .barlow-condensed-light {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 300;
-      font-style: normal;
-    }
-    
-    .barlow-condensed-regular {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-    
-    .barlow-condensed-medium {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 500;
-      font-style: normal;
-    }
-    
-    .barlow-condensed-semibold {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 600;
-      font-style: normal;
-    }
-    
-    .barlow-condensed-bold {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 700;
-      font-style: normal;
-    }
-    
-    .barlow-condensed-extrabold {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 800;
-      font-style: normal;
-    }
-    
-    .barlow-condensed-black {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 900;
-      font-style: normal;
-    }
-    
-    .barlow-condensed-thin-italic {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 100;
-      font-style: italic;
-    }
-    
-    .barlow-condensed-extralight-italic {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 200;
-      font-style: italic;
-    }
-    
-    .barlow-condensed-light-italic {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 300;
-      font-style: italic;
-    }
-    
-    .barlow-condensed-regular-italic {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 400;
-      font-style: italic;
-    }
-    
-    .barlow-condensed-medium-italic {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 500;
-      font-style: italic;
-    }
-    
-    .barlow-condensed-semibold-italic {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 600;
-      font-style: italic;
-    }
-    
-    .barlow-condensed-bold-italic {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 700;
-      font-style: italic;
-    }
-    
-    .barlow-condensed-extrabold-italic {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 800;
-      font-style: italic;
-    }
-    
-    .barlow-condensed-black-italic {
-      font-family: "Barlow Condensed", sans-serif;
-      font-weight: 900;
-      font-style: italic;
-    }
+    /* FONTE ROBOTO */ 
+    .roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
     </style>
+    @livewireStyles
 </head>
 
-<body class="barlow-condensed-regular text-sm tracking-widest antialiased min-h-screen flex items-center justify-center">
+<body class="roboto-regular text-xs tracking-widest antialiased min-h-screen flex items-center justify-center">
 
     <div class="bg-gray-200 p-8 rounded-lg w-full max-w-sm mx-4 h-auto">
         <div class="flex justify-center mb-4">
@@ -155,7 +121,7 @@
             </button>
         </form>
     </div>
-
+    @livewireScripts
 </body>
 
 

@@ -16,6 +16,7 @@
         }
         /* Fim das configurações do carrossel de imagens */
     </style>
+    @livewireStyles
 </head>
 <body class="overflow-hidden">
     <a href="/projetos">
@@ -71,6 +72,6 @@
         // Começa o carrossel 
         startCarousel();
     </script>
-
+@livewireScripts
 </body>
 </html>

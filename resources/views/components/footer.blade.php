@@ -1,4 +1,4 @@
-<footer class="w-full bg-gray-200 text-sm pt-5 pb-5 mt-10">
+<footer class="w-full bg-gray-200 text-xs pt-5 pb-5 mt-10">
     <div class="container mx-auto max-w-6xl flex flex-col items-center px-4">
         
         <!-- Seção de Contato -->
