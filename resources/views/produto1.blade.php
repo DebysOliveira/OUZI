@@ -27,40 +27,40 @@
 
     <x-navbar/>
 
-    <main class="container mx-auto w-full flex-grow text-xs px-4">
-        <div>
-            <p class="text-xl lg:text-2xl text-center uppercase tracking-wide mb-6">
-                DREAM BIG MAKE IT HAPPEN
-            </p>
-        </div>
-        
-        <div class="flex flex-col lg:flex-row lg:space-x-6">
-            <div class="flex lg:w-1/2 items-center justify-center lg:justify-start">
-                <img 
-                    src="https://placehold.co/500x500" 
-                    alt="Holographic acrylic art piece with the text 'Dream Big Make It Happen' displayed in a modern interior setting" 
-                    class="mx-auto w-full max-h-[500px]">
-            </div>
-
-            <div class="leading-loose lg:w-1/2 w-full space-y-10 text-justify mb-6 lg:mb-0">
-                <div class="space-y-4">
-                    <p>EM TOM HOLOGRÁFICO, REFLETE A DETERMINAÇÃO E A INOVAÇÃO.</p>
-                    <p>SUAS CORES DANÇANTES, QUE MUDAM COM A LUZ, SÃO UM CONVITE CONSTANTE PARA SONHAR ALTO E TRANSFORMAR ESSES SONHOS EM CONQUISTAS.</p>
-                    <p>ARTE EM ACRÍLICO HOLOGRÁFICO.</p>
-                    <p>TAMANHO (AXLXP): 30,5 X 30,5 X 4,5CM</p>
-                    <p>Valor: <span>R$ 679</span></p>
-                </div>
-
-                <div class="flex justify-center lg:justify-start mt-4 lg:mt-6 pt-10 lg:pt-36">
-                    <a href="https://wa.me/SEU_NUMERO_DE_TELEFONE" 
-                       target="_blank" 
-                       class="px-6 py-2 bg-black text-white font-semibold rounded-md hover:bg-gray-900 transition">
-                        Comprar
-                    </a>
-                </div>
-            </div>
-        </div>
+    <main class="container mx-auto flex-grow w-full">
+   <div class="flex flex-col lg:flex-row">
+    <!-- Left Section -->
+    <div class="lg:w-1/2 p-4">
+     <div class="relative">
+      <img alt="Decorative wall with a quote and furniture" class="w-full" src="https://placehold.co/600x400"/>
+     </div>
+    </div>
+    <!-- Right Section -->
+    <div class="lg:w-1/2 p-4 uppercase leading-loose flex flex-col justify-between text-justify">
+     <h1 class="text-2xl font-bold mb-2">
+     DREAM BIG MAKE IT HAPPEN
+     </h1>
+     <p class="text-gray-800 mb-4">
+     EM TOM HOLOGRÁFICO, REFLETE A DETERMINAÇÃO E A INOVAÇÃO. SUAS CORES DANÇANTES, QUE MUDAM COM A LUZ, SÃO UM CONVITE CONSTANTE PARA SONHAR ALTO E TRANSFORMAR ESSES SONHOS EM CONQUISTAS.</p>
+     <p class="text-gray-800 mb-4">ARTE EM ACRÍLICO HOLOGRÁFICO.</p>
+     <div class="mb-4">
+      <p class="font-bold mb-2">
+      TAMANHO (AXLXP): 30,5 X 30,5 X 4,5CM
+    </p>
+      <div class="text-xl font-bold mb-2">
+      R$266,00
+     </div>
+     </div>
+     <button class="bg-black text-white px-4 py-2 w-full uppercase mt-auto">
+      Comprar
+     </button>
+    </div>
+   </div>
+  </div>
     </main>
+
+
+
 
     <x-footer/>
     @livewireScripts

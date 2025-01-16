@@ -17,12 +17,23 @@ use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
+use Filament\Forms\Components\Field;
+use Filament\Tables\Columns\Column;
 
 class AdminPanelProvider extends PanelProvider
 {
     public function panel(Panel $panel): Panel
     {
         return $panel
+        ->bootUsing(function () {
+            Field::configureUsing(function (Field $field) {
+                $field->translateLabel();
+            });
+
+            Column::configureUsing(function (Column $column) {
+                $column->translateLabel();
+            });
+        })
             ->default()
             ->id('admin')
             ->path('admin')
