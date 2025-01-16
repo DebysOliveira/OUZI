@@ -2,9 +2,9 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\AboutResource\Pages;
-use App\Filament\Resources\AboutResource\RelationManagers;
-use App\Models\About;
+use App\Filament\Resources\PhotoResource\Pages;
+use App\Filament\Resources\PhotoResource\RelationManagers;
+use App\Models\Photo;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -13,11 +13,11 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
-class AboutResource extends Resource
+class PhotoResource extends Resource
 {
-    protected static ?string $model = About::class;
+    protected static ?string $model = Photo::class;
 
-    protected static ?string $modelLabel = 'Sobre Page';
+    protected static ?string $modelLabel = 'Foto';
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
@@ -25,13 +25,7 @@ class AboutResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\FileUpload::make('image')
-                    ->image()
-                    ->required(),
-                Forms\Components\TextInput::make('text')
-                    ->required(),
-                Forms\Components\TextInput::make('title')
-                    ->required(),
+                //
             ]);
     }
 
@@ -39,11 +33,7 @@ class AboutResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\ImageColumn::make('image'),
-                Tables\Columns\TextColumn::make('text')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('title')
-                    ->searchable(),
+                //
             ])
             ->filters([
                 //
@@ -62,7 +52,7 @@ class AboutResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ManageAbouts::route('/'),
+            'index' => Pages\ManagePhotos::route('/'),
         ];
     }
 }

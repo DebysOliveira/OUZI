@@ -2,9 +2,9 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\BlogResource\Pages;
-use App\Filament\Resources\BlogResource\RelationManagers;
-use App\Models\Blog;
+use App\Filament\Resources\ContactResource\Pages;
+use App\Filament\Resources\ContactResource\RelationManagers;
+use App\Models\Contact;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -13,11 +13,11 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
-class BlogResource extends Resource
+class ContactResource extends Resource
 {
-    protected static ?string $model = Blog::class;
+    protected static ?string $model = Contact::class;
 
-    protected static ?string $modelLabel = 'Post';
+    protected static ?string $modelLabel = 'Contatos';
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
@@ -25,18 +25,19 @@ class BlogResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('post_name')
+                Forms\Components\TextInput::make('email')
+                    ->email()
                     ->required(),
-                Forms\Components\DatePicker::make('date')
+                Forms\Components\TextInput::make('instagram')
                     ->required(),
-                Forms\Components\TextInput::make('description')
+                Forms\Components\TextInput::make('pinterest')
                     ->required(),
-                Forms\Components\TextInput::make('category')
+                Forms\Components\TextInput::make('address')
                     ->required(),
-                Forms\Components\TextInput::make('video_link')
+                Forms\Components\TextInput::make('youtube')
                     ->required(),
-                Forms\Components\FileUpload::make('post_image')
-                    ->image()
+                Forms\Components\TextInput::make('phone')
+                    ->tel()
                     ->required(),
             ]);
     }
@@ -45,18 +46,18 @@ class BlogResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('post_name')
+                Tables\Columns\TextColumn::make('email')
                     ->searchable(),
-                Tables\Columns\TextColumn::make('date')
-                    ->date()
-                    ->sortable(),
-                Tables\Columns\TextColumn::make('description')
+                Tables\Columns\TextColumn::make('instagram')
                     ->searchable(),
-                Tables\Columns\TextColumn::make('category')
+                Tables\Columns\TextColumn::make('pinterest')
                     ->searchable(),
-                Tables\Columns\TextColumn::make('video_link')
+                Tables\Columns\TextColumn::make('address')
                     ->searchable(),
-                Tables\Columns\ImageColumn::make('post_image'),
+                Tables\Columns\TextColumn::make('youtube')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('phone')
+                    ->searchable(),
             ])
             ->filters([
                 //
@@ -75,7 +76,7 @@ class BlogResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ManageBlogs::route('/'),
+            'index' => Pages\ManageContacts::route('/'),
         ];
     }
 }

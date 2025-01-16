@@ -2,9 +2,9 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\BlogResource\Pages;
-use App\Filament\Resources\BlogResource\RelationManagers;
-use App\Models\Blog;
+use App\Filament\Resources\ProductResource\Pages;
+use App\Filament\Resources\ProductResource\RelationManagers;
+use App\Models\Product;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -13,11 +13,11 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
-class BlogResource extends Resource
+class ProductResource extends Resource
 {
-    protected static ?string $model = Blog::class;
+    protected static ?string $model = Product::class;
 
-    protected static ?string $modelLabel = 'Post';
+    protected static ?string $modelLabel = 'Produto';
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
@@ -25,17 +25,18 @@ class BlogResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('post_name')
-                    ->required(),
-                Forms\Components\DatePicker::make('date')
+                Forms\Components\TextInput::make('name')
                     ->required(),
                 Forms\Components\TextInput::make('description')
                     ->required(),
-                Forms\Components\TextInput::make('category')
+                Forms\Components\TextInput::make('price')
+                    ->required()
+                    ->numeric()
+                    ->prefix('$'),
+                Forms\Components\FileUpload::make('product_image')
+                    ->image()
                     ->required(),
-                Forms\Components\TextInput::make('video_link')
-                    ->required(),
-                Forms\Components\FileUpload::make('post_image')
+                Forms\Components\FileUpload::make('card_image')
                     ->image()
                     ->required(),
             ]);
@@ -45,18 +46,15 @@ class BlogResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('post_name')
+                Tables\Columns\TextColumn::make('name')
                     ->searchable(),
-                Tables\Columns\TextColumn::make('date')
-                    ->date()
-                    ->sortable(),
                 Tables\Columns\TextColumn::make('description')
                     ->searchable(),
-                Tables\Columns\TextColumn::make('category')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('video_link')
-                    ->searchable(),
-                Tables\Columns\ImageColumn::make('post_image'),
+                Tables\Columns\TextColumn::make('price')
+                    ->money()
+                    ->sortable(),
+                Tables\Columns\ImageColumn::make('product_image'),
+                Tables\Columns\ImageColumn::make('card_image'),
             ])
             ->filters([
                 //
@@ -75,7 +73,7 @@ class BlogResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ManageBlogs::route('/'),
+            'index' => Pages\ManageProducts::route('/'),
         ];
     }
 }
